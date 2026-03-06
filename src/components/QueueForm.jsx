@@ -27,7 +27,7 @@ export default function QueueForm({onAdd}){
 
             <div className="form-group">
                 <select value={service} onChange = {(e) => setService(e.target.value)}>
-                    <option value="">Select Sevice</option>
+                    <option value="">Select Service</option>
                     <option value="consultation">consultation</option>
                     <option value="payment">payment</option>
                     <option value="support">support</option>
